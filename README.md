@@ -22,3 +22,6 @@ Simple Project that fetches *bitcoin* and *ethereum* prices from <a href="https:
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
+
+<blockquote class="reddit-card" data-card-created="1614313431"><a href="https://www.reddit.com/r/arduino/comments/lq4gsl/cryptocurrency_ticker_made_with_an_nodemcu_and/?ref=share&ref_source=embed">Cryptocurrency Ticker made with an NodeMcu and SSD1306</a> from <a href="http://www.reddit.com/r/arduino">r/arduino</a></blockquote>
+<script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
