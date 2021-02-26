@@ -53,7 +53,7 @@ void setup() {
   delay(5000);
 }
 
-void loop(){
+void loop() {
   getData("BTC");
   drawCoinPrice("BTC");
   delay(5000);
