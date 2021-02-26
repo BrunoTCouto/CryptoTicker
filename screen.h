@@ -24,9 +24,9 @@ void drawFailedConectingToWifi(String PortalSSID,String PortalIP) {
   display.drawString(63, 0, "Configurar Wi-fi");          // Config the Wi-Fi
   display.setFont(ArialMT_Plain_10);
   display.drawString(63, 15, "Para configurar o Wi-Fi,"); // to config the Wi-Fi
-  display.drawString(63, 27, "conecte seu celular");      // Conect your mobile phone
+  display.drawString(63, 27, "conecte seu celular");      // conect your mobile phone
   display.drawString(63, 39, "na rede " + PortalSSID );   // to the network
-  display.drawString(63, 51, "e acesse " + PortalIP);     // in the address
+  display.drawString(63, 51, "e acesse " + PortalIP);     // and access
   display.display();
 }
 
