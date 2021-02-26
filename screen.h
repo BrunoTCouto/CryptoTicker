@@ -13,7 +13,7 @@ void drawConectingToWifi() {
   display.setTextAlignment(TEXT_ALIGN_CENTER);
   display.setFont(ArialMT_Plain_16);
   display.drawXbm(34, 20, WiFi_Logo_width, WiFi_Logo_height, WiFi_Logo_bits);
-  display.drawString(63, 0, "Conectando Wi-Fi");
+  display.drawString(63, 0, "Conectando Wi-Fi"); // Connecting to Wi-Fi
   display.display();
 }
 
@@ -21,12 +21,12 @@ void drawFailedConectingToWifi(String PortalSSID,String PortalIP) {
   display.clear();
   display.setTextAlignment(TEXT_ALIGN_CENTER);
   display.setFont(ArialMT_Plain_16);
-  display.drawString(63, 0, "Configurar Wi-fi");
+  display.drawString(63, 0, "Configurar Wi-fi");          // Config the Wi-Fi
   display.setFont(ArialMT_Plain_10);
-  display.drawString(63, 15, "Para configurar o Wi-Fi,");
-  display.drawString(63, 27, "conecte seu celular");
-  display.drawString(63, 39, "na rede " + PortalSSID );
-  display.drawString(63, 51, "e acesse " + PortalIP);
+  display.drawString(63, 15, "Para configurar o Wi-Fi,"); // to config the Wi-Fi
+  display.drawString(63, 27, "conecte seu celular");      // Conect your mobile phone
+  display.drawString(63, 39, "na rede " + PortalSSID );   // to the network
+  display.drawString(63, 51, "e acesse " + PortalIP);     // in the address
   display.display();
 }
 
@@ -34,11 +34,11 @@ void drawConectedToWifi(String NetworkSSID, String IPAddr, String MacAddr) {
   display.clear();
   display.setTextAlignment(TEXT_ALIGN_CENTER);
   display.setFont(ArialMT_Plain_16);
-  display.drawString(63, 0, "Wi-Fi Conectado");
+  display.drawString(63, 0, "Wi-Fi Conectado");       // Wi-Fi connected
   display.setFont(ArialMT_Plain_10);
-  display.drawString(63, 17, "Rede: " + NetworkSSID);
-  display.drawString(63, 31, "IP: " + IPAddr);
-  display.drawString(63, 45, "MAC: " + MacAddr);
+  display.drawString(63, 17, "Rede: " + NetworkSSID); // Network:
+  display.drawString(63, 31, "IP: " + IPAddr);        // IP:
+  display.drawString(63, 45, "MAC: " + MacAddr);      // Mac:
   display.display();
 }
 
