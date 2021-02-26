@@ -1,6 +1,6 @@
 # CryptoTicker
 
-Simple Project that fetches *bitcoin* and *ethereum* prices from [BitcoinTrade] (https://www.bitcointrade.com.br/pt-BR/) and display on the oled screen
+Simple Project that fetches *bitcoin* and *ethereum* prices from <a href="https://www.bitcointrade.com.br/pt-BR/" target="_blank">BitcoinTrade</a> and display on the oled screen
 
 ## Parts
 | Quantity |       Part       |
