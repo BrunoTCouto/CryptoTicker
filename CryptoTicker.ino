@@ -5,7 +5,7 @@
 #include <DNSServer.h>         // tzapu 2.0.3-alpha
 #include <ESP8266WebServer.h>  // tzapu 2.0.3-alpha
 #include <WiFiManager.h>       // tzapu 2.0.3-alpha
-#include "SSD1306Wire.h"       // Adafruit SSD1306 2.4.3
+#include "SSD1306Wire.h"       // ESP8266 and ESP32 OLED driver for SSD1306 displays 4.2.0
 
 #include <Wire.h>
 
